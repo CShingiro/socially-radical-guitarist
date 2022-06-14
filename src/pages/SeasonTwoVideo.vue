@@ -5,7 +5,7 @@ import SeasonTwoInterViewsVue from 'src/components/SeasonTwoInterViews.vue';
 </script>
 
 <template>
-  <q-page>
+  <q-page class="row inline items-center justify-center">
     <full-videos-season-two-vue></full-videos-season-two-vue>
     <extras-video-season-two-vue></extras-video-season-two-vue>
     <season-two-inter-views-vue></season-two-inter-views-vue>

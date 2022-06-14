@@ -4,7 +4,7 @@ import EpisodesAudioSeasonOneVue from 'src/components/EpisodesAudioSeasonOne.vue
 </script>
 
 <template>
-  <q-page>
+  <q-page class="row inline items-center justify-center">
     <extras-audio-season-one-vue></extras-audio-season-one-vue>
     <episodes-audio-season-one-vue></episodes-audio-season-one-vue>
   </q-page>

@@ -1,5 +1,5 @@
 <template>
-  <q-page class="row inline items-center justify-center text-center">
+  <q-page class="row inline items-center justify-center">
     <div class="col-12">
       <q-item to="/pastshows/season1/">
         <h1 class="romade-italic gt-xs">Season One</h1>
