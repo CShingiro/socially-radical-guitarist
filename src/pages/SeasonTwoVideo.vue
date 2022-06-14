@@ -1,13 +1,10 @@
 <script setup lang="ts">
-import FullVideosSeasonTwoVue from 'src/components/FullVideosSeasonTwo.vue';
-import ExtrasVideoSeasonTwoVue from 'src/components/ExtrasVideoSeasonTwo.vue';
-import SeasonTwoInterViewsVue from 'src/components/SeasonTwoInterViews.vue';
+import ClipsOrVideosVue from 'src/components/ClipsOrVideos.vue';
 </script>
 
 <template>
   <q-page class="row inline items-center justify-center">
-    <full-videos-season-two-vue></full-videos-season-two-vue>
-    <extras-video-season-two-vue></extras-video-season-two-vue>
-    <season-two-inter-views-vue></season-two-inter-views-vue>
+    <clips-or-videos-vue></clips-or-videos-vue>
+    <clips-or-videos-vue></clips-or-videos-vue>
   </q-page>
 </template>

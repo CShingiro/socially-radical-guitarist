@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import EpisodesAudioSeasonTwoVue from 'src/components/EpisodesAudioSeasonTwo.vue';
-import ExtrasAudioSeasonTwoVue from 'src/components/ExtrasAudioSeasonTwo.vue';
+import SongsOnShowListVue from 'src/components/SongsOnShowList.vue';
+import ClipsOrVideosVue from 'src/components/ClipsOrVideos.vue';
 </script>
 
 <template>
   <q-page class="row inline items-center justify-center">
-    <episodes-audio-season-two-vue></episodes-audio-season-two-vue>
-    <extras-audio-season-two-vue></extras-audio-season-two-vue>
+    <songs-on-show-list-vue></songs-on-show-list-vue>
+    <clips-or-videos-vue></clips-or-videos-vue>
+    <clips-or-videos-vue></clips-or-videos-vue>
   </q-page>
 </template>
