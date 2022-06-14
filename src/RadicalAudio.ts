@@ -1,4 +1,4 @@
-import { Audio, Extras } from 'src/RadicalTypes';
+import { Audio, Content } from 'src/RadicalTypes';
 
 export const audioListSeasonOne = [
   {
@@ -431,34 +431,34 @@ export const audioListSeasonTwo = [
 
 export const clipsMusicSeasonOne = [
   {
-    clipName: 'Intro Season One',
-    clipLink: 'https://rumble.com/embed/vxqo2m/?pub=4',
+    name: 'Intro Season One',
+    link: 'https://rumble.com/embed/vxqo2m/?pub=4',
   },
   {
-    clipName: 'Outro Season One',
-    clipLink: 'https://rumble.com/embed/vxqnly/?pub=4',
+    name: 'Outro Season One',
+    link: 'https://rumble.com/embed/vxqnly/?pub=4',
   },
-] as Extras[];
+] as Content[];
 
 export const clipsMusicSeasonTwo = [
   {
-    clipName: 'Intro Season Two',
-    clipLink: '',
+    name: 'Intro Season Two',
+    link: 'https://rumble.com/embed/vw0jrn/?pub=4',
   },
   {
-    clipName: 'Outro Season Two',
-    clipLink: '',
+    name: 'Outro Season Two',
+    link: 'https://rumble.com/embed/vw0jqj/?pub=4',
   },
   {
-    clipName: '',
-    clipLink: '',
+    name: 'Latin Song',
+    link: 'https://www.youtube-nocookie.com/embed/2pjLjVFTTo8',
   },
   {
-    clipName: '',
-    clipLink: '',
+    name: 'Simple Four Chord Exercise',
+    link: 'https://www.youtube-nocookie.com/embed/Tv8OCuP2I14',
   },
   {
-    clipName: '',
-    clipLink: '',
+    name: 'Dorian Blues',
+    link: 'https://www.youtube-nocookie.com/embed/jvM5cGiSUrQ',
   },
-];
+] as Content[];

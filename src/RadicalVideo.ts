@@ -1,163 +1,159 @@
-import { fullVideo } from 'src/RadicalTypes';
+import { Content } from 'src/RadicalTypes';
 
-export const videoListSeason1 = [
+export const fullEpisodeSeasonOne = [
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
-] as fullVideo[];
+] as Content[];
 
-export const videoListSeason2 = [
+export const fullEpisodeSeasonTwo = [
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
   {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
+    name: '',
+    link: '',
   },
-  {
-    fullEpisodeName: '',
-    fullEpisodeLink: '',
-  },
-] as fullVideo[];
+] as Content[];

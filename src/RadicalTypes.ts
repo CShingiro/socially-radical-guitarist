@@ -20,17 +20,7 @@ export interface Audio {
   fourthSongLink?: string;
 }
 
-export interface fullVideo {
-  fullEpisodeName: string;
-  fullEpisodeLink: string;
-}
-
-export interface Extras {
-  clipName: string;
-  clipLink: string;
-}
-
-export interface Interviews {
-  interviewName: string;
-  interviewLink: string;
+export interface Content {
+  name: string;
+  link: string;
 }
