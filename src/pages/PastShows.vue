@@ -1,16 +1,26 @@
 <template>
-  <q-page class="row inline items-center justify-center">
+  <q-page class="row inline items-center justify-center q-pa-lg q-gutter-lg">
     <div class="col-12">
-      <q-item to="/pastshows/season1/">
-        <h1 class="romade-italic gt-xs">Season One</h1>
-        <h2 class="romade-italic lt-sm">Season One</h2>
-      </q-item>
+      <q-btn
+        to="/pastshows/season1"
+        no-caps
+        class="romade-italic text-h2"
+        label="Season One"
+        aria-label="Season One"
+        color="black"
+      >
+      </q-btn>
     </div>
     <div class="col-12">
-      <q-item to="/pastshows/season2/">
-        <h1 class="romade-italic gt-xs">Season Two</h1>
-        <h2 class="romade-italic lt-sm">Season Two</h2>
-      </q-item>
+      <q-btn
+        to="/pastshows/season2"
+        no-caps
+        class="romade-italic text-h2"
+        label="Season Two"
+        aria-label="Season Two"
+        color="black"
+      >
+      </q-btn>
     </div>
   </q-page>
 </template>
