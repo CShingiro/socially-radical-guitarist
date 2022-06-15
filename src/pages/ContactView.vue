@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, reactive } from 'vue';
 import { FormType } from 'src/RadicalTypes';
+
 const firstName = ref('');
 const lastName = ref('');
 const email = ref('');
