@@ -48,7 +48,7 @@ props.number;
         {{ audio.thirdSongName }} by {{ audio.thirdSongArtist }}
       </div>
     </q-card-section>
-    <q-card-section v-if="audio.fourthSongArtist">
+    <q-card-section v-if="audio.fourthSongLink">
       <q-video
         :src="audio.fourthSongLink"
         :title="audio.fourthSongName"
