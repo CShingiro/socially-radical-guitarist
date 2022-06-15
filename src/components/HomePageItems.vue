@@ -101,7 +101,7 @@
   <q-btn
     no-caps
     class="romade-italic text-h6 lt-sm"
-    to="/contacts"
+    to="/contact"
     color="black"
     label="Contact"
     aria-label="Contact"

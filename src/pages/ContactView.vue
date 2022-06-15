@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref, reactive } from 'vue';
+import { ref, reactive, onMounted } from 'vue';
 import { FormType } from 'src/RadicalTypes';
+import { useFormStore } from 'src/stores/FormStore';
 
 const firstName = ref('');
 const lastName = ref('');
@@ -9,11 +10,25 @@ const message = ref('');
 
 const formDetails = reactive({}) as FormType;
 
+onMounted(() => {
+  useFormStore();
+});
+
+const formStore = useFormStore();
+
 const onSubmit = () => {
   formDetails.firstName = firstName.value;
   formDetails.lastName = lastName.value;
   formDetails.email = email.value;
   formDetails.message = message.value;
+  formStore.createMessage(formDetails);
+  if (formStore.formData) {
+    firstName.value = '';
+    lastName.value = '';
+    email.value = '';
+    message.value = '';
+    alert('Your message has been received. Wait patiently for a reply.');
+  }
 };
 </script>
 
