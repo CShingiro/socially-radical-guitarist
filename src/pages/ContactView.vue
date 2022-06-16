@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref, reactive, onMounted } from 'vue';
+import { ref, reactive } from 'vue';
 import { FormType } from 'src/RadicalTypes';
-import { useFormStore } from 'src/stores/FormStore';
+import axios from 'axios';
 
 const firstName = ref('');
 const lastName = ref('');
@@ -10,27 +10,33 @@ const message = ref('');
 
 const formDetails = reactive({}) as FormType;
 
-onMounted(() => {
-  useFormStore();
-});
-
-const formStore = useFormStore();
-
 const onSubmit = () => {
   formDetails.firstName = firstName.value;
   formDetails.lastName = lastName.value;
   formDetails.email = email.value;
   formDetails.message = message.value;
-  formStore.createMessage(formDetails);
-  if (Promise) {
-    firstName.value = '';
-    lastName.value = '';
-    email.value = '';
-    message.value = '';
-    alert('Your message has been received. Wait patiently for a reply.');
-  } else {
-    alert('Sorry. There was an error. Please wait until the form is fixed.');
-  }
+  axios
+    .post('http://localhost:3000/messages', formDetails)
+    .then(function (promise) {
+      if (promise) {
+        firstName.value = '';
+        lastName.value = '';
+        email.value = '';
+        message.value = '';
+        alert('Your message has been received. Wait patiently for a reply.');
+      }
+    })
+    .catch(function (error) {
+      firstName.value = '';
+      lastName.value = '';
+      email.value = '';
+      message.value = '';
+      alert(
+        'Sorry, there was an error.' +
+          error +
+          '. Please wait until the problem is fixed and come back'
+      );
+    });
 };
 </script>
 

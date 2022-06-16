@@ -1,7 +1,23 @@
 const express = require('express');
 const app = express();
 
-const db = require('./db.json');
+const db = [
+  {
+    firstName: '',
+    lastName: '',
+    email: '',
+    message: '',
+  },
+];
+
+app.use(function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', 'http://localhost');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept'
+  );
+  next();
+});
 
 app.use(express.json());
 
