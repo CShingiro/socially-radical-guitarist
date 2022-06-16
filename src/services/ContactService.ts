@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { FormType } from 'src/RadicalTypes';
 
 const apiClient = axios.create({
   baseURL: 'https://sociallyradicalguitarist.com',
@@ -10,7 +11,8 @@ const apiClient = axios.create({
 });
 
 export default {
-  async getMessages() {
-    return await apiClient.get('/messages/');
+  async sendMessages(item: FormType) {
+    await apiClient.get('/messages/');
+    apiClient.post('/messages/db.json', item);
   },
 };

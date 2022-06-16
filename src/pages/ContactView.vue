@@ -22,12 +22,14 @@ const onSubmit = () => {
   formDetails.email = email.value;
   formDetails.message = message.value;
   formStore.createMessage(formDetails);
-  if (formStore.formData) {
+  if (Promise) {
     firstName.value = '';
     lastName.value = '';
     email.value = '';
     message.value = '';
     alert('Your message has been received. Wait patiently for a reply.');
+  } else {
+    alert('Sorry. There was an error. Please wait until the form is fixed.');
   }
 };
 </script>

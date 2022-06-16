@@ -9,9 +9,9 @@ export const useFormStore = defineStore('form-store', {
   actions: {
     createMessage(message: FormType) {
       this.formData = message;
-      ContactService.getMessages()
+      ContactService.sendMessages(message)
         .then((promise) => {
-          promise.data.push(message);
+          promise;
         })
         .catch((error) => {
           throw error;
