@@ -33,7 +33,7 @@
   ></q-img>
   <h2 class="romade-italic gt-md">Courtesy of:</h2>
   <h3 class="romade-italic md">Courtesy of:</h3>
-  <h3 class="romade-italic sm">Courtesy of:</h3>
+  <h4 class="romade-italic sm">Courtesy of:</h4>
   <div class="col-xs-6 justify-center lt-sm">
     <h4 class="romade-italic">Courtesy of:</h4>
   </div>
