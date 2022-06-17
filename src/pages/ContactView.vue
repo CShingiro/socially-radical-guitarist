@@ -16,7 +16,7 @@ const onSubmit = () => {
   formDetails.email = email.value;
   formDetails.message = message.value;
   axios
-    .post('http://localhost:3000/messages', formDetails)
+    .post('https://sociallyradicalguitarist.com/messages', formDetails)
     .then(function (promise) {
       if (promise) {
         firstName.value = '';
