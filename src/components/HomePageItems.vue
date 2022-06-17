@@ -4,7 +4,7 @@
     Welcome to The Socially Radical Guitarist
   </h3>
   <q-img
-    class="lg"
+    class="gt-md"
     src="/Images/ChristianGuitar.jpg"
     width="30%"
     height="30%"
