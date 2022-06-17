@@ -24,7 +24,10 @@
       and around the world. This Show airs every Saturday from 3pm to 4pm EST on
       CKMS 102.7 at Radio Waterloo, is available on Spotify through Anchor.fm
       every Sunday at 3pm, and re-airs every Friday from 8pm to 9pm EST on CKMS
-      102.7.
+      102.7. You can support the show and keep it alive by going
+      <a href="https://www.paypal.com/donate/?hosted_button_id=3DLZCWXZJ8GX6"
+        >Here</a
+      >.
     </h6>
     <p class="text-bold lt-sm">
       Get ready to learn about the versatility of the guitar and get ready to
@@ -35,7 +38,10 @@
       and around the world. This Show airs every Saturday from 3pm to 4pm EST on
       CKMS 102.7 at Radio Waterloo, is available on Spotify through Anchor.fm
       every Sunday at 3pm, and re-airs every Friday from 8pm to 9pm EST on CKMS
-      102.7.
+      102.7. You can support the show and keep it alive by going
+      <a href="https://www.paypal.com/donate/?hosted_button_id=3DLZCWXZJ8GX6"
+        >Here</a
+      >.
     </p>
     <q-img
       src="/Images/ChristianYoung.jpg"
