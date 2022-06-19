@@ -19,6 +19,7 @@ props.number;
       <q-video
         :src="audio.firstSongLink"
         :title="audio.firstSongName"
+        loading="lazy"
       ></q-video>
     </q-card-section>
     <q-card-section>
@@ -30,6 +31,7 @@ props.number;
       <q-video
         :src="audio.secondSongLink"
         :title="audio.secondSongName"
+        loading="lazy"
       ></q-video>
     </q-card-section>
     <q-card-section>
@@ -41,6 +43,7 @@ props.number;
       <q-video
         :src="audio.thirdSongLink"
         :title="audio.thirdSongName"
+        loading="lazy"
       ></q-video>
     </q-card-section>
     <q-card-section>
@@ -52,6 +55,7 @@ props.number;
       <q-video
         :src="audio.fourthSongLink"
         :title="audio.fourthSongName"
+        loading="lazy"
       ></q-video>
     </q-card-section>
     <q-card-section v-if="audio.fourthSongArtist">
