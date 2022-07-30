@@ -274,7 +274,7 @@ export const audioListSeasonTwo = [
   {
     firstSongName: 'Polozhenie',
     firstSongArtist: 'Zedline',
-    firstSongLink: 'https://www.youtube-nocookie.com/embed/YuxulzEIS0s',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/q6heuvfYQlg',
     secondSongName: 'The Constant',
     secondSongArtist: 'Skyharbor',
     secondSongLink: 'https://www.youtube-nocookie.com/embed/eppE-34zuNk',
@@ -426,6 +426,28 @@ export const audioListSeasonTwo = [
       "The Forging Of Jim's Multigalaxy Sword Of Flame And Death 9.0 (Beta)",
     thirdSongArtist: 'Owane & Jack Gardiner',
     thirdSongLink: 'https://www.youtube-nocookie.com/embed/xobGgh6iT8k',
+  },
+  {
+    firstSongName: 'El Pescador',
+    firstSongArtist: 'Banda Magda',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/-wMPdDVUDMI',
+    secondSongName: 'Aurora',
+    secondSongArtist: 'Origa',
+    secondSongLink: 'https://www.youtube-nocookie.com/embed/rSK8JBfhADY',
+    thirdSongName: 'Phoenix',
+    thirdSongArtist: 'Breaking Point',
+    thirdSongLink: 'https://www.youtube-nocookie.com/embed/GPXBEnc_bUI',
+  },
+  {
+    firstSongName: 'Vultures',
+    firstSongArtist: 'Wheel',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/jwJsQCetgDU',
+    secondSongName: 'BedRoots',
+    secondSongArtist: 'Sianvar',
+    secondSongLink: 'https://www.youtube-nocookie.com/embed/V0DtCCMUFIY',
+    thirdSongName: 'MONSTER',
+    thirdSongArtist: 'Ling Tosite Sigure',
+    thirdSongLink: 'https://www.youtube-nocookie.com/embed/WV7tz5mzWsY',
   },
 ] as Audio[];
 
