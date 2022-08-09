@@ -164,6 +164,10 @@ export const fullEpisodeSeasonTwo = [
     name: 'Episode 16',
     link: 'https://rumble.com/embed/v1awi20/?pub=4',
   },
+  {
+    name: 'Episode 17',
+    link: 'https://rumble.com/embed/v1cjy1q/?pub=4',
+  },
 ] as Content[];
 
 export const pastInterviewsSeasonOne = [

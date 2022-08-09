@@ -449,6 +449,17 @@ export const audioListSeasonTwo = [
     thirdSongArtist: 'Ling Tosite Sigure',
     thirdSongLink: 'https://www.youtube-nocookie.com/embed/WV7tz5mzWsY',
   },
+  {
+    firstSongName: 'Creator Made an Animal',
+    firstSongArtist: 'Snotty Nosed Rez Kids feat. Boslen',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/y7on7uixEjw',
+    secondSongName: '遇上爱的可是我 - (I Ran Into Love)',
+    secondSongArtist: 'Tia Ray',
+    secondSongLink: 'https://www.youtube-nocookie.com/embed/eb4G-GiPmss',
+    thirdSongName: 'Red Sun In The Sky',
+    thirdSongArtist: 'Chinese Music Association',
+    thirdSongLink: 'https://www.youtube-nocookie.com/embed/OjNpRbNdR7E',
+  },
 ] as Audio[];
 
 export const clipsMusicSeasonOne = [
