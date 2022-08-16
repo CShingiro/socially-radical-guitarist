@@ -191,7 +191,7 @@ export const audioListSeasonOne = [
   {
     firstSongName: 'Tshukain',
     firstSongArtist: 'Kanen',
-    firstSongLink: 'https://www.youtube-nocookie.com/embed/LcB-HGpKtUo',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/LWLsERJjXs4',
     secondSongName: 'White Buffalo',
     secondSongArtist: 'Crown Lands',
     secondSongLink: 'https://www.youtube-nocookie.com/embed/2cSp5QY7zo4',
