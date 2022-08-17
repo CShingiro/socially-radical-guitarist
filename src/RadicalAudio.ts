@@ -460,6 +460,17 @@ export const audioListSeasonTwo = [
     thirdSongArtist: 'Chinese Music Association',
     thirdSongLink: 'https://www.youtube-nocookie.com/embed/OjNpRbNdR7E',
   },
+  {
+    firstSongName: 'Challenger',
+    firstSongArtist: 'Sybreed',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/Xh7uuuRfOY0',
+    secondSongName: 'Challenger',
+    secondSongArtist: 'Voicians',
+    secondSongLink: 'https://www.youtube-nocookie.com/embed/d4U6xxpD30w',
+    thirdSongName: 'Inside',
+    thirdSongArtist: 'Paul Udarov & Voicians',
+    thirdSongLink: 'https://www.youtube-nocookie.com/embed/VPZdTkcSgDw',
+  },
 ] as Audio[];
 
 export const clipsMusicSeasonOne = [
