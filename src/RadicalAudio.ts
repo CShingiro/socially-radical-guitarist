@@ -471,6 +471,17 @@ export const audioListSeasonTwo = [
     thirdSongArtist: 'Paul Udarov & Voicians',
     thirdSongLink: 'https://www.youtube-nocookie.com/embed/VPZdTkcSgDw',
   },
+  {
+    firstSongName: 'March of the Rare Bird',
+    firstSongArtist: 'Heavy Meddlers',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/n_ZYSsvgU7U',
+    secondSongName: 'Eternal Fact of Water',
+    secondSongArtist: 'Jakub Zytecki feat. David Maxim Micic',
+    secondSongLink: 'https://www.youtube-nocookie.com/embed/VqkCAsCVhO8',
+    thirdSongName: 'Paper Moon',
+    thirdSongArtist: 'Plini',
+    thirdSongLink: 'https://www.youtube-nocookie.com/embed/BCL0vkZQmII',
+  },
 ] as Audio[];
 
 export const clipsMusicSeasonOne = [
