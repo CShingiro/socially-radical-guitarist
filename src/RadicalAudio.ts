@@ -482,6 +482,17 @@ export const audioListSeasonTwo = [
     thirdSongArtist: 'Plini',
     thirdSongLink: 'https://www.youtube-nocookie.com/embed/BCL0vkZQmII',
   },
+  {
+    firstSongName: 'Sinanga',
+    firstSongArtist: 'Ignace "Iggy" Ryangoma',
+    firstSongLink: 'https://www.youtube-nocookie.com/embed/JFN5XfSKmPI',
+    secondSongName: 'Rapture',
+    secondSongArtist: 'Koffee',
+    secondSongLink: 'https://www.youtube-nocookie.com/embed/b9NculQEBa0',
+    thirdSongName: 'We Are Women',
+    thirdSongArtist: 'Communist Party of Kenya',
+    thirdSongLink: 'https://www.youtube-nocookie.com/embed/84-xolECLaY',
+  },
 ] as Audio[];
 
 export const clipsMusicSeasonOne = [

@@ -176,6 +176,10 @@ export const fullEpisodeSeasonTwo = [
     name: 'Episode 19',
     link: 'https://rumble.com/embed/v1e9hcu/?pub=10rg8j',
   },
+  {
+    name: 'Episode 20',
+    link: 'https://rumble.com/embed/v1fnsba/?pub=4',
+  },
 ] as Content[];
 
 export const pastInterviewsSeasonOne = [
@@ -261,6 +265,10 @@ export const pastInterviewsSeasonTwo = [
   {
     name: 'Interview with Ngqabutho Nicholas Mabhena',
     link: 'https://rumble.com/embed/vvbmzh/?pub=4',
+  },
+  {
+    name: 'Return Interview with Booker Ngesa Omole',
+    link: 'https://rumble.com/embed/v1fnrbg/?pub=4',
   },
 ] as Content[];
 
