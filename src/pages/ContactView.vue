@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { ref, reactive } from 'vue';
 import { FormType } from 'src/RadicalTypes';
-import axios from 'axios';
 
 const firstName = ref('');
 const lastName = ref('');
 const email = ref('');
 const message = ref('');
+const mail = ref('');
 
 const formDetails = reactive({}) as FormType;
 
@@ -15,28 +15,7 @@ const onSubmit = () => {
   formDetails.lastName = lastName.value;
   formDetails.email = email.value;
   formDetails.message = message.value;
-  axios
-    .post('https://sociallyradicalguitarist.com/messages', formDetails)
-    .then(function (promise) {
-      if (promise) {
-        firstName.value = '';
-        lastName.value = '';
-        email.value = '';
-        message.value = '';
-        alert('Your message has been received. Wait patiently for a reply.');
-      }
-    })
-    .catch(function (error) {
-      firstName.value = '';
-      lastName.value = '';
-      email.value = '';
-      message.value = '';
-      alert(
-        'Sorry, there was an error.' +
-          error +
-          '. Please wait until the problem is fixed and come back'
-      );
-    });
+  mail.value = encodeURI('mailto:sociallyradicalguitarist@gmail.com');
 };
 </script>
 
@@ -55,7 +34,12 @@ const onSubmit = () => {
           >.
         </h6>
       </div>
-      <q-form @submit.prevent="onSubmit">
+      <q-form
+        @submit.prevent="onSubmit"
+        :action="mail"
+        method="get"
+        enctype="text/plain"
+      >
         <q-input
           name="firstname"
           label="First Name"
