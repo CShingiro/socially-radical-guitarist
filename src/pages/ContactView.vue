@@ -1,21 +1,14 @@
 <script setup lang="ts">
-import { ref, reactive } from 'vue';
-import { FormType } from 'src/RadicalTypes';
+import { ref } from 'vue';
 
 const firstName = ref('');
 const lastName = ref('');
 const email = ref('');
 const message = ref('');
-const mail = ref('');
-
-const formDetails = reactive({}) as FormType;
-
-const onSubmit = () => {
-  formDetails.firstName = firstName.value;
-  formDetails.lastName = lastName.value;
-  formDetails.email = email.value;
-  formDetails.message = message.value;
-  mail.value = encodeURI('mailto:sociallyradicalguitarist@gmail.com');
+const mail = (from: string, message: string) => {
+  return encodeURI(
+    `mailto:sociallyradicalguitarist@gmail.com?subject=From ${from} &body=${message}`
+  );
 };
 </script>
 
@@ -34,12 +27,7 @@ const onSubmit = () => {
           >.
         </h6>
       </div>
-      <q-form
-        @submit.prevent="onSubmit"
-        :action="mail"
-        method="get"
-        enctype="text/plain"
-      >
+      <q-form :action="mail(email, message)" method="get" enctype="text/plain">
         <q-input
           name="firstname"
           label="First Name"
