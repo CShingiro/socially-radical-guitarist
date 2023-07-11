@@ -1,14 +1,45 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, reactive } from 'vue';
+import { api } from 'src/boot/axios';
+import { ContactType } from 'src/ContactType';
+
+let contactInfo: ContactType = reactive({
+  firstName: '',
+  lastName: '',
+  email: '',
+  subject: '',
+  message: '',
+});
 
 const firstName = ref('');
 const lastName = ref('');
 const email = ref('');
+const subject = ref('');
 const message = ref('');
-const mail = (from: string, message: string) => {
-  return encodeURI(
-    `mailto:sociallyradicalguitarist@gmail.com?subject=From ${from} &body=${message}`
-  );
+
+const onSubmit = () => {
+  contactInfo = {
+    firstName: firstName.value,
+    lastName: lastName.value,
+    email: email.value,
+    subject: subject.value,
+    message: message.value,
+  };
+  api
+    .post('/api/v1/guitarist-contact', contactInfo)
+    .then((res) => {
+      console.log(res);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+
+  alert('Message sent. Please wait 24-48 hours for a reply.');
+  firstName.value = '';
+  lastName.value = '';
+  email.value = '';
+  subject.value = '';
+  message.value = '';
 };
 </script>
 
@@ -27,7 +58,7 @@ const mail = (from: string, message: string) => {
           >.
         </h6>
       </div>
-      <q-form :action="mail(email, message)" method="get" enctype="text/plain">
+      <q-form action="POST" @submit.prevent="onSubmit" name="Contact Form">
         <q-input
           name="firstname"
           label="First Name"
@@ -57,6 +88,18 @@ const mail = (from: string, message: string) => {
           label="Email"
           type="email"
           v-model="email"
+          bg-color="black"
+          label-color="white"
+          filled
+          dark
+          color="white"
+          required
+        ></q-input>
+        <q-input
+          name="subject"
+          label="Subject"
+          type="text"
+          v-model="subject"
           bg-color="black"
           label-color="white"
           filled
